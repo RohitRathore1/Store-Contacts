@@ -1,0 +1,140 @@
+.add-icon {
+    color: white;
+  }
+  .add-profile {
+    margin-left: 1em;
+    background-color: #343a40;
+    color: #17a2b8;
+    border-color: #17a2b8;
+  }
+  @media screen and (max-width: 575px) {
+    .search-form {
+      width: 100%;
+    }
+  }
+  .modal-body {
+    width: 90%;
+    margin: auto;
+  }
+  .delete-person {
+    color: red;
+  }
+  .edit-person {
+    color: #007bff;
+    border-bottom: inherit;
+  }
+  .app-body {
+    margin-top: 4em;
+  }
+  .logo {
+    border-color: #17a2b8;
+    color: white;
+  }
+  
+  .profile-header {
+    height: 10em;
+    background-color: #343a40;
+    margin-bottom: 2em;
+  }
+  .profile-img {
+    height: 9em;
+    margin: 3em 0em 0em 1em;
+  }
+  .contact-table {
+    border-style: solid;
+    border-width: thin;
+    margin-top: 2em;
+  }
+  .contacts-table-head {
+    background-color: #343a40;
+    color: #84e4f3;
+  }
+  .btn-secondary {
+    background-color: #54595d;
+  }
+  .social-icons {
+    position: absolute;
+    right: 0;
+    margin: 2em 5%;
+    color: white;
+    font-size: x-large;
+  }
+  
+  .social-icons i {
+    margin-right: 0.6em;
+  }
+  .empty-contacts {
+    text-align: center;
+    margin-top: 8em;
+    color: rebeccapurple;
+  }
+  .fa-folder-open-o {
+    font-size: 4em;
+  }
+  .btn-success {
+    float: right;
+  }
+  .container {
+    padding-bottom: 2em;
+    padding-top: 1em;
+  }
+  .modal-footer {
+    padding-right: 1em;
+  }
+  
+  @media screen and (min-width: 575px) {
+    .edit-profile-form {
+      width: 80%;
+      margin: auto;
+    }
+    .profile-content {
+      width: 70%;
+      margin: auto;
+    }
+  }
+  @media screen and (max-width: 575px) {
+    .edit-profile-form {
+      width: 90%;
+      margin: auto;
+    }
+    .profile-content {
+      width: 100%;
+      margin: auto;
+    }
+  }
+  /* Toastr styles */
+  .toast {
+    background-color: #030303;
+  }
+  .toast-info {
+    background-color: #3276b1;
+  }
+  .toast-error {
+    background-color: #bd362f;
+  }
+  .toast-success {
+    background-color: #51a351;
+  }
+  .toast-warning {
+    background-color: #f89406;
+  }
+  .btn-toolbar {
+    float: right;
+  }
+  .profile-icon {
+    width: 70px;
+    max-height: 70px;
+    border-radius: 50%;
+  }
+  .card-body {
+    padding-top: 0em;
+    padding-bottom: 0em;
+  }
+  .modal-footer {
+    padding-bottom: 0em;
+    width: -webkit-fill-available;
+    justify-content: center;
+  }
+  .submit-button {
+    width: 7em;
+  }
